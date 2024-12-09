@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #09cafa;
+    background: url('23.avif') no-repeat center center fixed; /* Set your image URL here */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+
+
+
+
+  }
+  
+  .container {
+    background-color: rgba(27, 247, 218, 0.562);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 800px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  button,
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #3d54d4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #458ea0;
+  }
+  
+  input[type="text"] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
